@@ -1,0 +1,92 @@
+.resimslider{
+    height: 600px;
+}
+body{
+   padding-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.hakkimizda{
+    background-color: #bcdcf1;
+}
+.ayrac{
+    border: none;
+    border-top: 3px solid #080808;
+    max-width: 250px;
+    margin: 25px auto;
+}
+.ibeyaz{
+    color: #9d9b9b;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid white;
+    background-color: white;
+}
+.igri{
+    color: #9d9b9b;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #bcdcf1;
+    background-color: #bcdcf1;
+}
+.yerlerimiz>img:hover{
+    opacity: 0.8;
+}
+.görseller{
+    background-color: #bcdcf1;
+}
+.figure :hover{
+    opacity: 0.8;
+}
+
+.formInput{
+    display: inline-block;
+    text-align: left;
+    width: 57rem;
+}
+
+.formLabel{
+    display: inline-block;
+    text-align: left;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 15vh;
+}
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  
